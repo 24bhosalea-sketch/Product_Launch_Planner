@@ -65,7 +65,7 @@ Tech Stack
 |  Agent Framework   |            CrewAI            |
 |        LLM         | Gemini 2.5 Flash (Google AI) |
 |    Search Tool     |       Tavily Search API      |
-|  Image Generation  | Gemini Image Generation API  |
+|  Image Generation  | Imagen 4.0 Fast Generate 001 |
 |    LLM-as-Judge    |       Gemini 2.5 Flash       |
 |      Backend       |            Python            |
 |      Frontend      |           Streamlit          |
