@@ -5,6 +5,7 @@ A fully deployed, end-to-end multi-agent AI system that autonomously generates a
 
 **Public URL:** [Product Launch Planner](https://appuctlaunchplanner-rxsnx4jrdr5bhwv7wjftxz.streamlit.app)
 **Local Host (Pre-Deployment):** http://localhost:8501/
+**Loom Video Link:** https://www.loom.com/share/91c2fb77e4d64ef4bb4024c0c93c405c
 ---
 
 ## Problem Statement
@@ -65,7 +66,7 @@ Tech Stack
 |  Agent Framework   |            CrewAI            |
 |        LLM         | Gemini 2.5 Flash (Google AI) |
 |    Search Tool     |       Tavily Search API      |
-|  Image Generation  | Gemini Image Generation API  |
+|  Image Generation  | Imagen 4.0 Fast Generate 001 |
 |    LLM-as-Judge    |       Gemini 2.5 Flash       |
 |      Backend       |            Python            |
 |      Frontend      |           Streamlit          |
