@@ -449,11 +449,11 @@ if "result" in st.session_state:
        ]
 
     if len(sections) > 1:
-      tabs = st.tabs(agent_names[:len(sections)])
+      tabs = st.tabs(agent_names[:len(sections) - 1])
       for i, tab in enumerate(tabs):
          with tab:
             if i + 1 < len(sections):
-                content = sections[i].strip()
+                content = sections[i + 1].strip()
                 lines = content.split('\n')
                 clean_content = '\n'.join(lines[1:]) if lines else content
                 st.markdown(clean_content)
