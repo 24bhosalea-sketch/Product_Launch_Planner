@@ -437,7 +437,9 @@ if "result" in st.session_state:
 
     # Parse output into sections
     result_text = str(st.session_state.result)
-    agent_names = [
+    sections = result_text.split("---")
+
+agent_names = [
     "🔍 Market Research",
     "👥 Audience Profile",
     "📈 SEO & Keywords",
@@ -445,9 +447,6 @@ if "result" in st.session_state:
     "📣 Marketing & Messaging",
     "🎨 Visual Advertising"
 ]
-
-import re
-sections = re.split(r'\n---\n### ', result_text)
 
 if len(sections) > 1:
     tabs = st.tabs(agent_names[:len(sections)-1])
